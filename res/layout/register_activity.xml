@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303040" >
+
+    <Button
+        android:id="@+id/register_send_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="76dp"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:text="@string/register_button" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/register_send_data"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_marginBottom="114dp"
+        android:text="@string/register_password"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/password_textField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/email_textField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignLeft="@+id/password_textField"
+        android:layout_marginBottom="19dp"
+        android:ems="10"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/email_textField"
+        android:layout_alignLeft="@+id/email_textField"
+        android:text="@string/register_email"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/username_textField"
+        android:layout_toLeftOf="@+id/register_send_data"
+        android:text="@string/register_userName"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/username_textField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+	
+</RelativeLayout>

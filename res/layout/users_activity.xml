@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303040" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/users_area_welcome"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/ask_for_help_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:text="@string/ask_for_help_button" />
+
+    <Button
+        android:id="@+id/seePlumbersButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ask_for_help_button"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="15dp"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:text="@string/see_plumbers_button" />
+
+    <Button
+        android:id="@+id/searchPlumbersButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ask_for_help_button"
+        android:layout_marginTop="16dp"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:text="@string/search_plumbers" />
+
+    <Button
+        android:id="@+id/seeAllAdsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/seePlumbersButton"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="14dp"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:text="@string/see_all_ads_button" />
+
+</RelativeLayout>

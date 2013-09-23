@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#303040" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ad_address"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/ad_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:inputType="textPostalAddress" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/ad_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ad_title"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/ad_titleTextField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/ad_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ad_price"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/ad_priceTextField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/ad_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ad_description"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/ad_descriptionTextField"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:ellipsize="none"
+        android:ems="10"
+        android:gravity="left"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:scrollHorizontally="false" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ad_contactNumber"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/ad_contactNumberTextField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/ad_publishButton"
+        android:layout_width="match_parent"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:text="@string/ad_publish" />
+
+</LinearLayout>

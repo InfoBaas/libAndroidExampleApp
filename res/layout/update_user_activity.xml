@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303040"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="14dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/update_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update_email"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#AFDEFE"
+            android:textStyle="italic"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/update_emailTextField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textColor="#AFDEFE"
+            android:textStyle="italic"
+            android:typeface="serif" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/update_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update_password"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#AFDEFE"
+            android:textStyle="italic"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/update_passwordTextField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="#AFDEFE"
+            android:textStyle="italic"
+            android:typeface="serif" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="@string/update_updateUser"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#AFDEFE"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/update_aliveCheckBox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="@string/update_button"
+        android:textColor="#AFDEFE"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/update_button"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="4"
+            android:scrollHorizontally="false"
+            android:text="@string/update_note"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#AFDEFE"
+            android:textStyle="italic"
+            android:typeface="serif" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/update_aliveCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/update_deactivate_user" />
+
+</RelativeLayout>

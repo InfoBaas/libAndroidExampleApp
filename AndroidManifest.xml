@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.example.infosistema"
+    android:versionCode="1"
+    android:versionName="1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+	android:name=".applicationData">
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher2"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo" >
+        <uses-library android:name="com.google.android.maps" />
+
+        <activity
+            android:name="com.example.infosistema.MainActivity"
+            android:label="@string/app_name" >
+             android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PlumbersActivity" />
+        <activity android:name=".UsersActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".PostAdActivity" />
+        <activity android:name=".SeeAllPlumbersActivity" />
+        <activity android:name=".AskForHelpActivity" />
+        <activity android:name=".UpdatePlumberInformation" />
+        <activity android:name=".SearchPlumbersActivity" />
+        <activity android:name="com.example.infosistema.register.DefaultRegisterActivity" />
+        <activity android:name=".AdsActivity" />
+        <activity android:name=".TestActivity"/>
+        <activity android:name=".FacebookRegisterFragment"/>
+        <activity android:name="com.example.infosistema.register.LinkedinRegisterActivity"/>
+        <activity android:name="com.example.infosistema.register.MainRegisterActivity"/>
+        <activity android:name=".MainFacebookRegister"/>
+        <activity android:name=".mainFacebookActivity"/>
+        <activity android:name="com.facebook.LoginActivity" android:label="@string/app_name"></activity>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id"/>
+        <meta-data android:value="AIzaSyDINOw1HEMjTvr1mmcqMUUgnYdkW6seO9M" android:name="com.google.android.maps.v3.API_KEY"/>
+    </application>
+
+</manifest>

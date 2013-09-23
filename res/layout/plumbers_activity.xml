@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303040" >
+
+    <Button
+        android:id="@+id/postAdButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="26dp"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:text="@string/post_ad" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:text="@string/plumbers_area_welcome"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/postAdButton"
+        android:layout_marginTop="14dp"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:text="@string/authenticate" />
+
+    <Button
+        android:id="@+id/update_information_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:text="@string/updateInformation" />
+
+</RelativeLayout>

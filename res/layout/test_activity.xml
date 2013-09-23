@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#303040" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Path to File"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/pathToFileTextField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/uploadFileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:text="Upload File" />
+
+    <Button
+        android:id="@+id/uploadStorageFileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:text="Upload Storage Test" />
+
+    <Button
+        android:id="@+id/download_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:text="Download Storage Test" />
+
+    <Button
+        android:id="@+id/findAllStorageIds_testBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:text="findAllStorageIds Test" />
+
+    <Button
+        android:id="@+id/deleteStorageFileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:text="Delete StorageFile test" />
+
+    <Button
+        android:id="@+id/deleteUserTestButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:text="Delete user" />
+
+    <Button
+        android:id="@+id/uploadImageTestButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#AFDEFE"
+		android:typeface="serif"
+		android:textStyle="italic"
+        android:text="UploadImage test" />
+
+</LinearLayout>

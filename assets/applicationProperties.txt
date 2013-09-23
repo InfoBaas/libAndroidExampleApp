@@ -1,0 +1,3 @@
+appId:6f2
+currentUser:e57
+appUsers:[olag:e57,olagi:0aa,ola:6c2]
